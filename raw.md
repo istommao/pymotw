@@ -1,43 +1,43 @@
 # pymotw
-每周Python3模块 中文版
+Python 3 Module of the Week
 
-## 文本
-- string — 文字常量和模板
-- textwrap — 格式化文本段
-- re — 正则表达式
-- difflib — 序列比较
+## Text
+- string — Text Constants and Templates
+- textwrap — Formatting Text Paragraphs
+- re — Regular Expressions
+- difflib — Compare Sequences
 
-## 数据结构
-- enum – 枚举类型
-- collections — 容器数据类型
-- array — 固定类型的数据序列
-- heapq – 堆排序算法
-- bisect — 维护有序列表
-- queue — 线程安全对先进先出队列(FIFO)对实现
-- struct — 二进制数据类型
+## Data Structures
+- enum – Enumeration Type
+- collections — Container Data Types
+- array — Sequence of Fixed-type Data
+- heapq – Heap Sort Algorithm
+- bisect — Maintain Lists in Sorted Order
+- queue — Thread-Safe FIFO Implementation
+- struct — Binary Data Structures
 - weakref — Impermanent References to Objects
 - copy — Duplicate Objects
 - pprint — Pretty-Print Data Structures
 
-## 算法
+## Algorithms
 - functools — Tools for Manipulating Functions
 - itertools — Iterator Functions
 - operator — Functional Interface to Built-in Operators
 - contextlib — Context Manager Utilities
 
-## 日期与时间
-- time — 时钟时间
-- datetime — 日期和时间值操作
+## Dates and Times
+- time — Clock Time
+- datetime — Date and Time Value Manipulation
 - calendar — Work with Dates
 
-## 数学
+## Mathematics
 - decimal — Fixed and Floating Point Math
 - fractions — Rational Numbers
 - random — Pseudorandom Number Generators
 - math — Mathematical Functions
 - statistics — Statistical Calculations
 
-## 文件系统
+## The File System
 - os.path — Platform-independent Manipulation of Filenames
 - pathlib — Filesystem Paths as Objects
 - glob — Filename Pattern Matching
@@ -50,26 +50,26 @@
 - codecs — String Encoding and Decoding
 - io — Text, Binary, and Raw Stream I/O Tools
 
-## 数据吃持久化和转换
-- pickle — 对象序列化
+## Data Persistence and Exchange
+- pickle — Object Serialization
 - shelve — Persistent Storage of Objects
 - dbm — Unix Key-Value Databases
 - sqlite3 — Embedded Relational Database
 - xml.etree.ElementTree — XML Manipulation API
 - csv — Comma-separated Value Files
 
-## 数据压缩和归档
+## Data Compression and Archiving
 - zlib — GNU zlib Compression
 - gzip — Read and Write GNU zip Files
 - bz2 — bzip2 Compression
 - tarfile — Tar Archive Access
 - zipfile — ZIP Archive Access
 
-## 密码学
+## Cryptography
 - hashlib — Cryptographic Hashing
 - hmac — Cryptographic Message Signing and Verification
 
-## 基于进程、线程和协程的并发库
+## Concurrency with Processes, Threads, and Coroutines
 - subprocess — Spawning Additional Processes
 - signal — Asynchronous System Events
 - threading — Manage Concurrent Operations Within a Process
@@ -77,14 +77,14 @@
 - asyncio — Asynchronous I/O, event loop, and concurrency tools
 - concurrent.futures — Manage Pools of Concurrent Tasks
 
-## 网络
+## Networking
 - ipaddress — Internet Addresses
 - socket — Network Communication
 - selectors — I/O Multiplexing Abstractions
 - select — Wait for I/O Efficiently
 - socketserver — Creating Network Servers
 
-## 互联网
+## The Internet
 - urllib.parse — Split URLs into Components
 - urllib.request — Network Resource Access
 - urllib.robotparser — Internet Spider Access Control
@@ -97,13 +97,13 @@
 - xmlrpc.client — Client Library for XML-RPC
 - xmlrpc.server — An XML-RPC server
 
-## 邮件
+## Email
 - smtplib — Simple Mail Transfer Protocol Client
 - smtpd — Sample Mail Servers
 - mailbox — Manipulate Email Archives
 - imaplib — IMAP4 Client Library
 
-## 应用构建模块
+## Application Building Blocks
 - argparse — Command-Line Option and Argument Parsing
 - getopt — Command Line Option Parsing
 - readline — The GNU readline Library
@@ -116,11 +116,11 @@
 - atexit — Program Shutdown Callbacks
 - sched — Timed Event Scheduler
 
-## 国际化和本地化
-- gettext — 信息目录
-- locale — 本地化API
+## Internationalization and Localization
+- gettext — Message Catalogs
+- locale — Cultural Localization API
 
-## 开发工具
+## Developer Tools
 - pydoc — Online Help for Modules
 - doctest — Testing Through Documentation
 - unittest — Automated Testing Framework
@@ -136,53 +136,53 @@
 - venv — Create Virtual Environments
 - ensurepip — Install the Python Package Installer
 
-## 运行时特性
+## Runtime Features
 - site — Site-wide Configuration
-- sys — 系统配置
+- sys — System-specific Configuration
 - os — Portable access to operating system specific features
-- platform — 系统版本信息
-- resource — 系统资源管理
-- gc — 垃圾回收
+- platform — System Version Information
+- resource — System Resource Management
+- gc — Garbage Collector
 - sysconfig — Interpreter Compile-time Configuration
 
-## 语言工具
-- warnings — 非致命错误的警告工具
-- abc — 抽象基类
-- dis — Python字节码的反汇编器
-- inspect — 检查运行中的对象
+## Language Tools
+- warnings — Non-fatal Alerts
+- abc — Abstract Base Classes
+- dis — Python Bytecode Disassembler
+- inspect — Inspect Live Objects
 
-## 模块和包
-- importlib — Python的import机制
-- pkgutil — 包管理工具
-- zipimport — 从ZIP归档中国年加载Python代码
+## Modules and Packages
+- importlib — Python’s Import Mechanism
+- pkgutil — Package Utilities
+- zipimport — Load Python Code from ZIP Archives
 
-## Unix-specific服务
+## Unix-specific Services
 - pwd — Unix Password Database
 - grp — Unix Group Database
 
-## Py2到Py3的迁移备注
-- 引用
-- 新模块
-- 重命名到模块
-- 移除到模块
-- 弃用的模块
-- 模块变化的总结
+## Porting Notes
+- References
+- New Modules
+- Renamed Modules
+- Removed Modules
+- Deprecated Modules
+- Summary of Changes to Modules
 
-## 标准库之外
-- 文本
-- 算法
-- 日期与时间
-- 数学
-- 数据持久与转换
-- 密码学
-- 基于进程、线程和协程的并发库
-- 网络
-- 邮件
-- 应用构建模块
-- 开发工具
+## Outside of the Standard Library
+- Text
+- Algorithms
+- Dates and Times
+- Mathematics
+- Data Persistence and Exchange
+- Cryptography
+- Concurrency with Processes, Threads, and Coroutines
+- The Internet
+- Email
+- Application Building Blocks
+- Developer Tools
 
-##  关于每周Python3模块
-- 订阅
-- 工具
-- 翻译其他版本
-- 版权和许可
+## About Python Module of the Week
+- Subscribe
+- Tools
+- Translations and Other Versions
+- Copyright and Licensing
