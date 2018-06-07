@@ -17,7 +17,114 @@ print(string.capwords(s))
 
 ## 模版
 
+```python
+# string_template.py
+import string
+
+values = {'var': 'foo'}
+
+t = string.Template("""
+Variable        : $var
+Escape          : $$
+Variable in text: ${var}iable
+""")
+
+print('TEMPLATE:', t.substitute(values))
+
+s = """
+Variable        : %(var)s
+Escape          : %%
+Variable in text: %(var)siable
+"""
+
+print('INTERPOLATION:', s % values)
+
+s = """
+Variable        : {var}
+Escape          : {{}}
+Variable in text: {var}iable
+"""
+
+print('FORMAT:', s.format(**values))
+```
+
+```python
+# string_template_missing.py
+import string
+
+values = {'var': 'foo'}
+
+t = string.Template("$var is here but $missing is not provided")
+
+try:
+    print('substitute()     :', t.substitute(values))
+except KeyError as err:
+    print('ERROR:', str(err))
+
+print('safe_substitute():', t.safe_substitute(values))
+```
+
 ## 高级模版
+```python
+import string
+
+
+class MyTemplate(string.Template):
+    delimiter = '%'
+    idpattern = '[a-z]+_[a-z]+'
+
+
+template_text = '''
+  Delimiter : %%
+  Replaced  : %with_underscore
+  Ignored   : %notunderscored
+'''
+
+d = {
+    'with_underscore': 'replaced',
+    'notunderscored': 'not replaced',
+}
+
+t = MyTemplate(template_text)
+print('Modified ID pattern:')
+print(t.safe_substitute(d))
+```
+
+```python
+# string_template_defaultpattern.py
+import string
+
+t = string.Template('$var')
+print(t.pattern.pattern)
+```
+
+```python
+# string_template_newsyntax.py
+
+import re
+import string
+
+
+class MyTemplate(string.Template):
+    delimiter = '{{'
+    pattern = r'''
+    \{\{(?:
+    (?P<escaped>\{\{)|
+    (?P<named>[_a-z][_a-z0-9]*)\}\}|
+    (?P<braced>[_a-z][_a-z0-9]*)\}\}|
+    (?P<invalid>)
+    )
+    '''
+
+
+t = MyTemplate('''
+{{{{
+{{var}}
+''')
+
+print('MATCHES:', t.pattern.findall(t.template))
+print('SUBSTITUTED:', t.safe_substitute(var='replacement'))
+```
 
 ## 格式化
 
@@ -39,6 +146,7 @@ for name, value in inspect.getmembers(string, is_str):
         continue
     print('%s=%r\n' % (name, value))
 ```
+
 ```python
 
 ascii_letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
