@@ -1,0 +1,17 @@
+{
+    "": [
+        "readme.md", 
+        "raw.md", 
+        "docs"
+    ], 
+    "__positions": {
+        "docs": 3, 
+        "raw.md": 2, 
+        "readme.md": 1
+    }, 
+    "__raw_positions": {
+        "docs": 3, 
+        "raw.md": 2, 
+        "readme.md": 1
+    }
+}
