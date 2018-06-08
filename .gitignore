@@ -101,3 +101,4 @@ sync_hook.script
 **/.Archive
 
 .md_configs.data
+.DS_Store
