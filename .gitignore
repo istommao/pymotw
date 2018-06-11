@@ -102,3 +102,4 @@ sync_hook.script
 
 .md_configs.data
 .DS_Store
+.markeditor/
