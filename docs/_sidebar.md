@@ -71,8 +71,8 @@
   - [hmac — 密码信息的签名和验证]()
 
 - 基于进程、线程和协程的并发库
-  - [subprocess — 子进程操作库]()
-  - [signal — 异步系统事件]()
+  - [subprocess — 子进程操作库](concurrent/subprocess.md)
+  - [signal — 异步系统事件](concurrent/signal.md)
   - [threading — 线程操作库]()
   - [multiprocessing — 像管理线程一样管理进程]()
   - [asyncio — 针对异步 I/O,事件循环(event loop), 和并发的工具]()
