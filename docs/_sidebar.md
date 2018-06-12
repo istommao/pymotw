@@ -67,7 +67,7 @@
   - [zipfile — ZIP 打包接口]()
 
 - 密码学
-  - [hashlib — 哈希库]()
+  - [hashlib — 哈希库](cryptography/hashlib.md)
   - [hmac — 密码信息的签名和验证]()
 
 - 基于进程、线程和协程的并发库
