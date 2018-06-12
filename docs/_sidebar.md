@@ -85,7 +85,7 @@
   - [socketserver — 创建网络服务器](network/socketserver.md)
 
 - 互联网
-  - [urllib.parse — 解析 URL]()
+  - [urllib.parse — 解析 URL](internet/urllib.md)
   - [urllib.request — 网络资源访问]()
   - [urllib.robotparser — 互联网爬虫控制]()
   - [base64 — 利用 ASCII 编码二进制数据]()
