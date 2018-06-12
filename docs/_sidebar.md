@@ -68,7 +68,7 @@
 
 - 密码学
   - [hashlib — 哈希库](cryptography/hashlib.md)
-  - [hmac — 密码信息的签名和验证]()
+  - [hmac — 密码信息的签名和验证](cryptography/hmac.md)
 
 - 基于进程、线程和协程的并发库
   - [subprocess — 子进程操作库](concurrent/subprocess.md)
