@@ -98,9 +98,9 @@
   - [xmlrpc.server — XML-RPC 的服务端库]()
 
 - 邮件
-  - [smtplib — 简单邮件传输协议的客户端库]()
-  - [smtpd — 简单邮件传输协议的服务端库]()
-  - [mailbox — 管理邮件归档]()
+  - [smtplib — 简单邮件传输协议的客户端库](email/smtplib.md)
+  - [smtpd — 简单邮件传输协议的服务端库](email/smtpd.md)
+  - [mailbox — 管理邮件归档](email/mailbox.md)
   - [imaplib — IMAP4 协议的客户端库]()
 
 - 应用构建模块
@@ -157,7 +157,7 @@
   - [zipimport — 从ZIP归档中国年加载Python代码]()
 
 - Unix-specific服务
-  - [pwd — Unix 秘密数据库]()
+  - [pwd — Unix 密码数据库]()
   - [grp — Unix 分组数据库]()
 
 - Py2到Py3的迁移备注
