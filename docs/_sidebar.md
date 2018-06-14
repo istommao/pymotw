@@ -10,7 +10,7 @@
   - [enum – 枚举类型](datastructure/enum.md)
   - [collections — 容器数据类型](datastructure/collections.md)
   - [array — 固定类型的数据序列](datastructure/array.md)
-  - [heapq – 堆排序算法](datastructure/heaq.md)
+  - [heapq – 堆排序算法](datastructure/heapq.md)
   - [bisect — 维护有序列表](datastructure/bisect.md)
   - [queue — 线程安全对先进先出队列(FIFO)对实现](datastructure/queue.md)
   - [struct — 二进制数据类型](datastructure/struct.md)
@@ -51,19 +51,19 @@
 
 - 数据持久化和转换
 
-  - [pickle — 对象序列化]()
-  - [shelve — 对象的持久化存储]()
-  - [dbm — Unix 下的键值数据库(key-value)]()
-  - [sqlite3 — 内建关系型数据库]()
-  - [xml.etree.ElementTree — 操作 XML 的API]()
-  - [csv — 操作 csv 文件的 API]()
+  - [pickle — 对象序列化](data/pickle.md)
+  - [shelve — 对象的持久化存储](data/shelve.md)
+  - [dbm — Unix 下的键值数据库(key-value)](data/dbm.md)
+  - [sqlite3 — 内建关系型数据库](data/sqlite3.md)
+  - [xml.etree.ElementTree — 操作 XML 的API](data/xml.md)
+  - [csv — 操作 csv 文件的 API](data/csv.md)
 
 - 数据压缩和归档
-  - [zlib — GNU zlib 压缩库]()
-  - [gzip — 读写 GNU zip 压缩文件]()
-  - [bz2 — bzip2 压缩库]()
-  - [tarfile — Tar 打包接口]()
-  - [zipfile — ZIP 打包接口]()
+  - [zlib — GNU zlib 压缩库](tool/zlib.md)
+  - [gzip — 读写 GNU zip 压缩文件](tool/gzip.md)
+  - [bz2 — bzip2 压缩库](tool/bz2.md)
+  - [tarfile — Tar 打包接口](tool/tarfile.md)
+  - [zipfile — ZIP 打包接口](tool/zipfile.md)
 
 - 密码学
   - [hashlib — 哈希库](cryptography/hashlib.md)
