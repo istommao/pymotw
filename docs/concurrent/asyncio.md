@@ -1,0 +1,52 @@
+# asyncio 异步IO 事件循环 并发工具
+
+
+- Asynchronous Concurrency Concepts
+- Cooperative Multitasking with Coroutines
+    - Starting a Coroutine
+    - Returning Values from Coroutines
+    - Chaining Coroutines
+    - Generators Instead of Coroutines
+- Scheduling Calls to Regular Functions
+    - Scheduling a Callback “Soon”
+    - Scheduling a Callback with a Delay
+    - Scheduling a Callback for a Specific Time
+- Producing Results Asynchronously
+    - Waiting for a Future
+    - Future Callbacks
+- Executing Tasks Concurrently
+    - Starting a Task
+    - Canceling a Task
+    - Creating Tasks from Coroutines
+- Composing Coroutines with Control Structures
+    - Waiting for Multiple Coroutines
+    - Gathering Results from Coroutines
+    - Handling Background Operations as They Finish
+- Synchronization Primitives
+    - Locks
+    - Events
+    - Conditions
+    - Queues
+- Asynchronous I/O with Protocol Class Abstractions
+    - Echo Server
+    - Echo Client
+    - Output
+- Asynchronous I/O Using Coroutines and Streams
+    - Echo Server
+    - Echo Client
+    - Output
+- Using SSL
+- Interacting with Domain Name Services
+    - Address Lookup by Name
+    - Name Lookup by Address
+- Working with Subprocesses
+    - Using the Protocol Abstraction with Subprocesses
+    - Calling Subprocesses with Coroutines and Streams
+    - Sending Data to a Subprocess
+- Receiving Unix Signals
+- Combining Coroutines with Threads and Processes
+    - Threads
+    - Processes
+- Debugging with asyncio
+
+
