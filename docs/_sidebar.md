@@ -10,7 +10,7 @@
   - [enum – 枚举类型](datastructure/enum.md)
   - [collections — 容器数据类型](datastructure/collections.md)
   - [array — 固定类型的数据序列](datastructure/array.md)
-  - [heapq – 堆排序算法](datastructure/heaq.md)
+  - [heapq – 堆排序算法](datastructure/heapq.md)
   - [bisect — 维护有序列表](datastructure/bisect.md)
   - [queue — 线程安全对先进先出队列(FIFO)对实现](datastructure/queue.md)
   - [struct — 二进制数据类型](datastructure/struct.md)
@@ -104,7 +104,7 @@
   - [imaplib — IMAP4 协议的客户端库](email/imaplib.md)
 
 - 应用构建模块
-  - [argparse — 命令行选项和参数解析]()
+  - [argparse — 命令行选项和参数解析](app/argparse.md)
   - [getopt — 命令行选项解析]()
   - [readline — GNU readline 库]()
   - [getpass — 安全密码提示符]()
