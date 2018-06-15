@@ -10,7 +10,7 @@
   - [enum – 枚举类型](datastructure/enum.md)
   - [collections — 容器数据类型](datastructure/collections.md)
   - [array — 固定类型的数据序列](datastructure/array.md)
-  - [heapq – 堆排序算法](datastructure/heapq.md)
+  - [heapq – 堆排序算法](datastructure/heaq.md)
   - [bisect — 维护有序列表](datastructure/bisect.md)
   - [queue — 线程安全对先进先出队列(FIFO)对实现](datastructure/queue.md)
   - [struct — 二进制数据类型](datastructure/struct.md)
@@ -37,7 +37,7 @@
   - [statistics — 统计计算](math/statistics.md)
 
 - 文件系统
-  - [os.path — 平台独立的文件名操作工具](fs/os.md)
+  - [os.path — 平台独立的文件名操作工具](fs/os.path.md)
   - [pathlib — 像操作对象一样操作文件系统路径](fs/pathlib.md)
   - [glob — 文件名的模式匹配](fs/glob.md)
   - [fnmatch —  类 Unix 的模式匹配](fs/fnmatch.md)
