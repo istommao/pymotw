@@ -105,36 +105,36 @@
 
 - 应用构建模块
   - [argparse — 命令行选项和参数解析](app/argparse.md)
-  - [getopt — 命令行选项解析]()
-  - [readline — GNU readline 库]()
-  - [getpass — 安全密码提示符]()
-  - [cmd — 基于行的命令行解析]()
-  - [shlex — Parse Shell-style Syntaxes]()
-  - [configparser — 操作配置文件工具]()
-  - [logging — 用 logging 库来报告状态、错误和各类信息]()
-  - [fileinput — 命令行过滤框架]()
-  - [atexit — 程序退出回调]()
-  - [sched — 定时消息调度器]()
+  - [getopt — 命令行选项解析](app/getopt.md)
+  - [readline — GNU readline 库](app/readline.md)
+  - [getpass — 安全密码提示符](app/getpass.md)
+  - [cmd — 基于行的命令行解析](app/cmd.md)
+  - [shlex — Parse Shell-style Syntaxes](app/shlex.md)
+  - [configparser — 操作配置文件工具](app/configparser.md)
+  - [logging — 用 logging 库来报告状态、错误和各类信息](app/logging.md)
+  - [fileinput — 命令行过滤框架](app/fileinput.md)
+  - [atexit — 程序退出回调](app/atexit.md)
+  - [sched — 定时消息调度器](app/sched.md)
 
 - 国际化和本地化
-  - [gettext — 信息目录]()
-  - [locale — 本地化API]()
+  - [gettext — 信息目录](gettext.md)
+  - [locale — 本地化API](locale.md)
 
 - 开发工具
-  - [pydoc — 模块的在线帮助]()
-  - [doctest — 通过文档来测试]()
-  - [unittest — 自动测试框架]()
-  - [trace — 跟随程序流]()
-  - [traceback — 异常和栈的回溯]()
-  - [cgitb — 详细的回溯报告]()
-  - [pdb — 交互式的调试器]()
-  - [profile and pstats — 性能分析]()
-  - [timeit — 为 python 程序计时]()
-  - [tabnanny — 缩进验证]()
-  - [compileall — 字节编译源文件]()
-  - [pyclbr —  浏览类信息的工具]()
-  - [venv — 创建虚拟环境]()
-  - [ensurepip — 安装 python 包安装器]()
+  - [pydoc — 模块的在线帮助](dev/pydoc.md)
+  - [doctest — 通过文档来测试](dev/doctest.md)
+  - [unittest — 自动测试框架](dev/unittest.md)
+  - [trace — 跟随程序流](dev/trace.md)
+  - [traceback — 异常和栈的回溯](dev/traceback.md)
+  - [cgitb — 详细的回溯报告](dev/cgitb.md)
+  - [pdb — 交互式的调试器](dev/pdb.md)
+  - [profile and pstats — 性能分析](dev/profile.md)
+  - [timeit — 为 python 程序计时](dev/timeit.md)
+  - [tabnanny — 缩进验证](dev/tabnanny.md)
+  - [compileall — 字节编译源文件](dev/compileall.md)
+  - [pyclbr —  浏览类信息的工具](dev/pyclbr.md)
+  - [venv — 创建虚拟环境](dev/venv.md)
+  - [ensurepip — 安装 python 包安装器](dev/ensurepip.md)
 
 - 运行时特性
   - [site — 不同平台的配置管理](runtime/site.md)
@@ -146,19 +146,19 @@
   - [sysconfig —  解释器编译时间配置](runtime/sysconfig.md)
 
 - 语言工具
-  - [warnings — 非致命错误的警告工具]()
-  - [abc — 抽象基类]()
-  - [dis — Python字节码的反汇编器]()
-  - [inspect — 检查运行中的对象]()
+  - [warnings — 非致命错误的警告工具](lang/warnings.md)
+  - [abc — 抽象基类](lang/abc.md)
+  - [dis — Python字节码的反汇编器](lang/dis.md)
+  - [inspect — 检查运行中的对象](lang/inspect.md)
 
 - 模块和包
-  - [importlib — Python的import机制]()
-  - [pkgutil — 包管理工具]()
-  - [zipimport — 从ZIP归档中国年加载Python代码]()
+  - [importlib — Python的import机制](package/importlib.md)
+  - [pkgutil — 包管理工具](package/pkgutil.md)
+  - [zipimport — 从ZIP归档中国年加载Python代码](package/zipimport.md)
 
 - Unix-specific服务
-  - [pwd — Unix 密码数据库]()
-  - [grp — Unix 分组数据库]()
+  - [pwd — Unix 密码数据库](pwd.md)
+  - [grp — Unix 分组数据库](grp.md)
 
 - Py2到Py3的迁移备注
   - [引用]()
