@@ -1,14 +1,46 @@
 # sys - 系统配置
 
-## 解释器配置
-
-```python
-import sys
-
-print('Version info:')
-print()
-print('sys.version      =', repr(sys.version))
-print('sys.version_info =', sys.version_info)
-print('sys.hexversion   =', hex(sys.hexversion))
-print('sys.api_version  =', sys.api_version)
-```
+- Interpreter Settings
+    - Build-time Version Information
+    - Interpreter Implementation
+    - Command Line Options
+    - Unicode Defaults
+    - Interactive Prompts
+    - Display Hook
+    - Install Location
+- Runtime Environment
+    - Command Line Arguments
+    - Input and Output Streams
+    - Returning Status
+- Memory Management and Limits
+    - Reference Counts
+    - Object Size
+    - Recursion
+    - Maximum Values
+    - Floating Point Values
+    - Integer Values
+    - Byte Ordering
+- Exception Handling
+    - Unhandled Exceptions
+    - Current Exception
+    - Previous Interactive Exception
+- Low-level Thread Support
+    - Switch Interval
+    - Debugging
+- Modules and Imports
+    - Imported Modules
+    - Built-in Modules
+    - Import Path
+    - Custom Importers
+    - Importing from a Shelve
+    - Custom Package Importing
+    - Reloading Modules in a Custom Importer
+    - Handling Import Errors
+    - Package Data
+    - Importer Cache
+    - Meta Path
+- Tracing a Program As It Runs
+    - Tracing Function Calls
+    - Tracing Inside Functions
+    - Watching the Stack
+    - Exception Propagation
